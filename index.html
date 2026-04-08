@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyChat - AI Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="main-content">
+            <div class="header">
+                <h1>EasyChat</h1>
+                <button class="demo-btn">Try With Demo</button>
+            </div>
+            
+            <div class="chat-window">
+                <div class="chat-header">
+                    <div class="logo">
+                        <span class="logo-icon">AI</span>
+                    </div>
+                    <button class="clear-chat-btn" id="clearChatBtn">Clear chat</button>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message ai-message">
+                        <div class="message-content">Hello! How can I help you today?</div>
+                    </div>
+                </div>
+                
+                <div class="chat-input-container">
+                    <input type="text" id="messageInput" placeholder="Enter Your Message..." autocomplete="off">
+                    <button id="sendButton">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
